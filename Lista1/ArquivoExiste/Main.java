@@ -22,12 +22,12 @@ class Main{
     String p3 = dgt.nextLine();
 
     File arq = new File(nome);
-    if (arq.exists()){
+    if (arq.exists()){ // verifica se o arquivo com o mesmo nome já existe
       System.out.printf("Arquivo já existe");
     }
     else{
-      FileOutputStream arq2 = new FileOutputStream(nome);
-      DataOutputStream gravarArquivo = new DataOutputStream(arq2);
+      FileOutputStream arq2 = new FileOutputStream(nome); // cria um novo arquivo
+      DataOutputStream gravarArquivo = new DataOutputStream(arq2); 
 
       gravarArquivo.writeUTF(p1);
       gravarArquivo.writeUTF(p2);
