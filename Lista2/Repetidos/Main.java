@@ -12,9 +12,9 @@ class Main {
       System.out.printf("Numero: ");
       num[i] = dgt.nextInt();
     }
-    int numdif[] = Arrays.stream(num).distinct().toArray();
+    int numdif[] = Arrays.stream(num).distinct().toArray(); // inicia um novo array sem os números repetidos
 
-    for (int i=0; i<numdif.length; i++){
+    for (int i=0; i<numdif.length; i++){ 
       System.out.printf("%2d", numdif[i]);
     }
   }
