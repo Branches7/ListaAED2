@@ -11,12 +11,12 @@ class Main {
     for (int i = 0; i < n; i++){
     System.out.printf("Digite o %d° número: ", i+1);
     vetor[i] = dgt.nextInt();
-    ordenado[i] = vetor[i];
+    ordenado[i] = vetor[i]; //array que vai ser ordenado recebe do array original
     }
-    Arrays.sort(ordenado);
+    Arrays.sort(ordenado); //ordenando array
 
     for (int i=0;i<n;i++){
-      System.out.printf("Original:%d Ordenado:%d\n",vetor[i], ordenado[i]);
+      System.out.printf("Original:%d Ordenado:%d\n",vetor[i], ordenado[i]); //printando os 2 arrays
     }
   }
 }
