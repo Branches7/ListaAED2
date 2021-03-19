@@ -1,0 +1,11 @@
+1. É uma especificação de um conjunto de dados e operações que podem ser executadas sobre esses dados.
+
+2. Características Fundamentais:
+- Os operadores do TAD implementam regras bem definidas para manipulação dos valores armazenados;
+- Os valores armazenados devem ser manipulados exclusivamente pelos operadores.
+
+3. Vantagens de se programar em TAD: 
+Abstração da Informação: permite uma melhor compreensão dos algoritmos e maior facilidade de programação, e consequentemente aumenta a complexidade dos programas, tornando fundamental em qualquer projeto de software a modelagem prévia de seus dados.
+Mais seguro programar: apenas as operações do Tipo Abstrato de Dados alteram os dados.
+Maior independência e portabilidade de código e Manutenção: alterações na implementação de um TAD não implicam em alterações em seu uso. Supondo que implementamos um TAD qualquer, e também temos uma aplicação usando este TAD. Se decidirmos mudar a implementação, desde que a aplicação esteja utilizando apenas os operadores, a aplicação continuará funcionado. O que mudou foi a implementação da TAD, mas sua funcionalidade (seus operadores) continuam os mesmos.
+Maior potencial de reutilização de código: pode-se alterar a lógica de um programa sem a necessidade de reconstruir as estruturas de armazenamento. Uma vez definido, implementado e testado, o TAD pode ser acessado por diferentes programas
